@@ -50,3 +50,15 @@ for (idx0 = 0; idx0 < items.length; idx0++) {
   items[idx0] -= offer;
   console.log(`price after 10% offer on item: ${items[idx0]}`);
 }
+
+//array methods:
+
+let fruits = ["apple", "banana", "kiwi", "mango"];
+
+fruits.push("watermelon"); //to add somthing in array. only add somthing in end
+console.log(fruits);
+
+fruits.pop(); // to remove somthing. only remove from end
+console.log(fruits);
+
+console.log(fruits.toString); //converts array to a string
