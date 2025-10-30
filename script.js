@@ -61,4 +61,34 @@ console.log(fruits);
 fruits.pop(); // to remove somthing. only remove from end
 console.log(fruits);
 
-console.log(fruits.toString); //converts array to a string
+console.log(fruits.toString()); //converts array to a string
+
+let fruits2 = ["strawberry", "cherry", "blueberry", "tomato"];
+
+let combine = fruits.concat(fruits2); //combines two or more arrays
+console.log(combine);
+
+fruits.unshift("peach", "cucumber"); //to add somthing in start of array.
+console.log(fruits);
+
+fruits.shift(); //to remove somthing from start of array.
+console.log(fruits);
+
+console.log(fruits.slice(1, 4)); //to slice somthing from middle. last
+
+//splice method: used to add,del,replace an item from org array
+let num = [1, 2, 3, 4, 5];
+
+num.splice(0, 1, "d");
+console.log(num);
+
+//array practice
+
+let companies = ["bloomberg", "microsoft", "google", "ibm", "netflix"];
+
+companies.shift();
+companies.push("amazon");
+
+companies.splice(1, 1, "uber");
+
+console.log(companies);
